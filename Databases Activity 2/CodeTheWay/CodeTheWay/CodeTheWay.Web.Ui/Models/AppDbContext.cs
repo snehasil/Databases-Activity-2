@@ -17,5 +17,6 @@ namespace CodeTheWay.Web.Ui.Models
         }
 
         public virtual DbSet<Student> Students { get; set; }
-    }
+        public virtual DbSet<ShippingContainer> ShippingContainers { get; set; }
+        }
 }
